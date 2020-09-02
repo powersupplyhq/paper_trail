@@ -41,6 +41,8 @@ has been destroyed.
   s.add_development_dependency "ffaker", "~> 2.11"
   s.add_development_dependency "generator_spec", "~> 0.9.4"
   s.add_development_dependency "memory_profiler", "~> 0.9.14"
+  s.add_development_dependency "rails", ">=5.2", "< 6.1"
+  s.add_development_dependency "rails-controller-testing", "~> 1.0.1"
   s.add_development_dependency "rake", "~> 13.0"
   s.add_development_dependency "rspec-rails", "~> 4.0"
   s.add_development_dependency "rubocop", "~> 0.89.1"
@@ -59,7 +61,5 @@ has been destroyed.
   # `Appraisals`.
   s.add_development_dependency "mysql2", "~> 0.5"
   s.add_development_dependency "pg", ">= 0.18", "< 2.0"
-  s.add_development_dependency "rails", ">=5.2", "< 6.1"
-  s.add_development_dependency "rails-controller-testing", "~> 1.0.1"
   s.add_development_dependency "sqlite3", "~> 1.4"
 end
